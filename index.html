@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Carlos Alberto Infantas Mota">
+  <title>Bienvenida - Herramientas de Desarrollo Profesional - TIC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Bienvenido al curso</h1>
+      <h2>Herramientas de Desarrollo Profesional - TIC</h2>
+      <p class="lead">Prepárate para fortalecer tus competencias profesionales y técnicas.</p>
+      <a class="btn" href="#info">Comenzar</a>
+    </div>
+  </header>
+
+  <main class="container" id="info">
+    <section class="card">
+      <h3>Objetivo del curso</h3>
+      <p>Desarrollar habilidades y herramientas prácticas para el crecimiento profesional en el área de Tecnologías de la Información y Comunicación.</p>
+    </section>
+
+    <section class="card">
+      <h3>Docente</h3>
+      <p><strong>Hernan Francisco Peña Carnero</strong></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Carlos Alberto Infantas Mota — Herramientas de Desarrollo Profesional - TIC</p>
+  </footer>
+
+  <script>
+    // Actualiza el año en el pie de página
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
